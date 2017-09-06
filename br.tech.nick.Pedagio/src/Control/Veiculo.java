@@ -35,5 +35,17 @@ public class Veiculo {
     }
     
     
+    public String ToString(){ 
+    try{
+        StringBuilder veiculosImprmi = new StringBuilder();
+        veiculosImprmi.append("Placa");
+    
+    return veiculosImprmi.toString();
+    }catch(Error e){
+        System.out.println("Nao foi posssivel Imprimir os dados solicitados sobre veiculos");
+    }
+        
+        return null;
+    }
     
 }

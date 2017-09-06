@@ -119,6 +119,10 @@ public class PedagioCadastro {
         return pracasT.toString();
     }
 
+    public PedagioCadastro[] getPracas() {
+        return pracas;
+    }
+
     
     
     
